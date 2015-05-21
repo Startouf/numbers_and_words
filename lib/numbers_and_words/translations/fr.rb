@@ -2,6 +2,7 @@ module NumbersAndWords
   module Translations
     class Fr < Base
       include NumbersAndWords::Translations::Families::Latin
+      include NumbersAndWords::Translations::Extensions::FractionSignificance
 
       SPECIAL_TENS_CASE = 8
 
