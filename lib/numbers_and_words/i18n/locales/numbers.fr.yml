@@ -4,7 +4,15 @@ fr:
     teens: [dix, onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf]
     tens: [zéro, dix, vingt, trente, quarante, cinquante, soixante, soixante-dix, quatre-vingt, quatre-vingt-dix]
     mega: [ones, thousands, millions, billions, trillions, quadrillions, quintillion, sextillions, septillions, octillions, nonillions, decillions]
+    micro: [_, tenths, hundredths]
+    union_separator: et
     eighty: quatre-vingts
+    tenths:
+      one: "dixième"
+      many: "dixièmes"
+    hundredths:
+      one: "centième"
+      many: "centièmes"
     hundreds:
       one: cent
       many: cents
